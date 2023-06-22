@@ -39,7 +39,6 @@ body {
     text-decoration: none;
 }
 
-.cabecalho {}
 
 .apresentacao {
 
@@ -99,8 +98,7 @@ body {
     gap: 0.5%;
     border: 2px solid var(--cor-terciaria);
     width: 50%;
-    padding-left: 10%;
-    padding-right: 10%;
+    
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -111,13 +109,13 @@ body {
 }
 
 .foto {
-    max-width: 50%;
+    max-width: 20%;
 }
 
 .botoes_link:hover {
     background-color: var(--cor-primaria);
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 2%;
+    padding-right: 2%;
 
 }
 
@@ -152,5 +150,18 @@ body {
 
         max-width: 70%;
 
+    }
+
+
+    .botoes_link{
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    }
+    .botoes_link:hover {
+        background-color: var(--cor-primaria);
+        padding-left: 12%;
+        padding-right: 12%;
+    
     }
 }
