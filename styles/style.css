@@ -47,7 +47,7 @@ nav {
     flex-direction: row;
 }
 
-nav ul {
+nav ul li{
 
 }
 
@@ -58,7 +58,6 @@ section {
 }
 
 /* rodape  */
-figure {
-    width: 50%;
-    height: auto;
+figure img{
+margin: 30px;
 }
