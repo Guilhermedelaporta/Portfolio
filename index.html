@@ -7,50 +7,70 @@
         <link rel="stylesheet" href="./styles/style.css"/>
   </head>
         <body>
-            <header>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">Sobre</a></li>
+
+            <header class="">
+                <nav class="container-de-navegacao">
+                    <ul class="lista-de-navegacao">
+                        <li class="ancora-navegar"><a href="index.html" class="ancora-navegar">Home</a></li>
+                        <li class="ancora-navegar"><a href="about.html" class="ancora-navegar">Sobre</a></li>
                     </ul>
                 </nav>
             </header>
-            <main>
-                <section>
-                    <figure>
-                        <img src="./assets/imagem.jpg" alt="guilherme"  width="150px" height="150px"/>
+
+            <main class="container-principal">
+
+                <section class="container-do-conteudo-principal">
+                    <figure class="container-imagem-principal">
+                        <img class="imagem-principal" src="./assets/imagem.jpg" alt="guilherme" width="200px" height="200px"/>
                     </figure>
-                    <h1>
-                    Eleve seu negócio digital a outro nível
-                    <strong>com um Front-end de qualidade!</strong>
-                    </h1>
-                    <p>
+                    <h1 class="titulo-principal"> 
                     Olá! Sou Guilherme De La Porta Martins, desenvolvedor Front-end com
                     especialidade em Python, HTML e CSS. Ajudo pequenos negócios e
                     designers a colocarem em prática boas ideias. Vamos conversar?
-                    </p>
-                    <section>
-                        <h2>Acesse minhas redes:</h2>
-                        <ul>
-                            <li><a href="https://github.com/Guilhermedelaporta">
-                                <img src="./assets/github.png" alt="Github de Guilherme De La Porta Martins" />Github</a></li>
-                            <li><a href="https://www.linkedin.com/in/guilherme-de-la-porta-martins-8943ba234/">
-                                <img src="./assets/linkedin.png" alt="linkedin de Guilherme De La Porta Martins" />linkedin</a></li>
-                        </ul>
-                    </section>
+                    </h1>
                 </section>
-                <aside class="projetos">
-                    <h2 class="titulo-projetos">Projetos</h2>
-                    <ul class="lista-de-projetos">
-                        <li><a class="Projeto1">Projeto 1</a> <p>Um projeto simples de uma calculadora básica usando HTML, CSS e JavaScript</p></li>
-                        <li><a class="Projeto2">Projeto 2</a></li>
-                        <li><a class="Projeto3">Projeto 3</a></li>
-                        <li><a class="Projeto4">Projeto 4</a></li>
+                <div class="container-titulo-dos-projetos"><h2 class="titulo-projetos">Projetos</h2></div>
+
+                <section class="projetos">
+                    <article class="projeto1">
+                        <h2 class="titulo-projeto">Projeto1</h2>
+                        <p class="descricao-projeto"></p>
+                        <button>Visualizar Projeto</button>
+                    </article>
+
+                    <article class="projeto2">
+                        <h2 class="titulo-projeto">Projeto2</h2>
+                        <p class="descricao-projeto">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                        <button>Visualizar Projeto</button>
+                    </article>
+
+                    <article class="projeto3">
+                        <h2 class="titulo-projeto">Projeto3</h2>
+                        <p class="descricao-projeto"></p>
+                        <button>Visualizar Projeto</button>
+                    </article>
+
+                    <article class="projeto4">
+                        <h2 class="titulo-projeto">Projeto4</h2>
+                        <p class="descricao-projeto"></p>
+                        <button>Visualizar Projeto</button>
+                    </article>
+                </section>
+
+                <section class="contato">
+                    <h2 class="entrar-em-contato">Entrar em contato:</h2>
+                    <ul class="lista-de-contatos">
+                        <li class="ancora-contato"><a class="ancora-contato" href="https://github.com/Guilhermedelaporta">
+                            <img src="./assets/github.png" alt="Github de Guilherme De La Porta Martins" />Github</a></li>
+                        <li class="ancora-contato"><a class="ancora-contato" href="https://www.linkedin.com/in/guilherme-de-la-porta-martins-8943ba234/">
+                            <img src="./assets/linkedin.png" alt="linkedin de Guilherme De La Porta Martins" />linkedin</a></li>
                     </ul>
-                </aside>
+                </section>
+
             </main>
+
                 <footer class="rodape">
-                    <p><strong>&copy; Desenvolvido por Guilherme De La Porta Martins. Todos os direitos reservados.</strong></p>
+                    <p class="conteudo-rodape"><strong class="conteudo-rodape">Desenvolvido por Guilherme De La Porta Martins. &copy; Todos os direitos reservados.</strong></p>
                 </footer>
         </body>
 </html>
