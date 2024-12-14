@@ -26,7 +26,7 @@ body {
     color: var(--corWhite);
 }
 main {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
@@ -48,7 +48,9 @@ nav {
 }
 
 nav ul li{
-
+display: inline;
+margin: 5px;
+padding: 10px;
 }
 
 /* seções */
@@ -61,3 +63,37 @@ section {
 figure img{
 margin: 30px;
 }
+
+.projetos {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 600px;
+margin: 20px;
+}
+.titulo-projetos {
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+}
+
+.lista-de-projetos {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 100px;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    list-style: none;
+    margin: 20px;
+}
+.projeto1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2 ;
+}
+ 
